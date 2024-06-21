@@ -1,0 +1,173 @@
+* {
+    font-family: "poppins";
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+body {
+    box-sizing: border-box;
+    width: 95vw;
+    height: 100vh;
+    ;
+}
+
+header {
+   
+    font-size: 14px;
+    font-weight: 400;
+    color: #17233D;
+    line-height: 21px;
+    margin-top: 47px;
+    margin-left: 42px;
+    cursor: pointer;
+     
+}
+
+.header1 {
+    margin-right:42px;
+    
+    width: 87px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.buttom-header {
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background: #6fbf44;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+img {
+    height: 500px;
+    width: 595.18px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 121px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+section {
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+ 
+}
+
+h1 {
+    color: #161A49;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    width: 582px;
+    letter-spacing: 0.6px;
+}
+
+p {
+    color: #4B505A;
+    width: 493px;
+    line-height: 33px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+.link1 {
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.header1:hover {
+    opacity: .4;
+}
+
+.header1:active {
+    opacity: 0.8;
+}
+
+
+
+.buttom-header:hover {
+    opacity: .4;
+}
+
+.buttom-header:active {
+    opacity: 0.8;
+}
+
+.link1:hover {
+    opacity: 0.4;
+}
+
+.link1:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 700px) {
+   
+    body {
+       
+       margin: 0;
+       padding: 0;
+      }
+
+    .header1 {
+        display: none;        
+    }
+
+   img {
+    display: block;  
+    margin: 0 auto;
+    max-width: 80%;   
+    max-height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    
+       
+   }
+  
+   section {
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 40px;
+   }
+
+   h1 {
+    font-size: 30px;
+    width: auto;
+    line-height: 30px;
+   } 
+
+   p {
+    font-size: 18px;
+    width: auto;
+   }
+
+   .move {
+    font-size: 18px;
+    width: auto;
+   }
+
+   .buttom-header {
+    margin-left: 73%;
+    margin-bottom: 70px;
+   }
+
+}
+  

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+div {
+    width: 500px;
+    height: 400px;
+    background: blueviolet;
+}
+
+@media screen and (max-width: 600px) {
+    div {
+        background: red;
+        height: 200px;
+        width: 200px;
+    }
+}

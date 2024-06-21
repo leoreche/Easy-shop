@@ -1,0 +1,26 @@
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder {
+    color: purple;
+}
+
+p {
+    color: red;
+}
+
+p::first-letter {
+    color: blue;
+}
+
+/* --------------------------------- */
+
+a::after {
+    content: "👍"
+}
+
+a::before {
+    content: "🔥";
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :active {
+    color: red;
+} */
+
+/* :visited {
+    color: gray;
+} */
+
+a:hover {
+    color: red;
+}
+
+p {
+    color: aqua;
+}
+
+p:hover{
+    color: darkgreen;
+}
+
+/* ------------------------------- */
+
+input:checked {
+    width: 100px;
+    height: 100px;
+}
+
+input:disabled {
+    width: 100px;
+    height: 100px;
+
+}
+
+input:focus {
+    border:1px solid red;
+    outline: none;
+    
+}
+
+input:read-only {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.container:empty {
+    background: blue;
+}
